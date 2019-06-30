@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  // overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 52px;
+  color: $heading-color;
+}
+
+h2 {
+  font-size: 40px;
+  color: $heading-color;
+}
+
+h3 {
+  font-family: $main-font;
+  color: $heading-color;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: $main-font;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: $main-font;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: $main-font;
+  color: $light-grey-2;
+}
+
+a:hover {
+  color: #0094b9;
+}
+
+li {
+  list-style-type: none;
+}
+
+p,
+li {
+  font-family: $main-font;
+  color: $light-grey-2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+a {
+  font-weight: 500;
+  font-size: 13px;
+  color: $dark-grey;
+  font-family: $main-font;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+i {
+  color: $icon-color;
+  margin: .75rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+i:hover {
+  color: $active-icon-color;
+  opacity: 1;
+}
+
+span {
+  font-family: $main-font;
+}
+
+.main-btn,
+.small-btn {
+  color: $white;
+  background-color: hsla(192, 100%, 36%, 0.8);
+  border: 0;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: $main-font;
+  margin: 2rem auto;
+  cursor: pointer;
+  box-shadow: 0px 6px 20px -8px $dark-blue;
+  transition: all .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-btn {
+  height: 38px;
+  width: 132px;
+}
+
+.main-btn:hover,
+.small-btn:hover {
+  background-color: $dark-blue;
+  color: $white;
+  box-shadow: 0px 10px 20px -8px $dark-blue;
+}
+
+.small-btn {
+  height: 32px;
+  width: 90px;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto !important;
+  max-width: 1080px;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.section {
+  margin: 6vh 0 !important;
+}
+
+.page-heading {
+  font-size: 5.5rem;
+  display: inline-block;
+}
+
+.date {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,42 @@
+#top-header-bg {
+    background: url("../assets/header-bg-img/logo-bg-2@2x.png") no-repeat center center / cover;
+    text-align: center;
+    height: 163px;
+    .logo{
+        a{
+            img{
+
+                height: 120px;
+                width: auto;
+                position: relative;
+                top: 20px;
+            }
+        }
+    }
+ 
+    ul{
+        .social-icon{
+            text-align: right;
+            margin-top: -52px;
+
+            li{
+                display: inline;
+            }
+            a{
+                display: inline-block;
+            }
+        }
+        .navigetion-item{
+            text-align: center;
+            margin-top: -52px;
+
+            li{
+                display: inline;
+                padding: 0px 40px 0px 40px;
+
+            }
+        }
+        
+
+    } 
+}

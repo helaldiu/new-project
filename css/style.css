@@ -1,0 +1,3767 @@
+@charset "UTF-8";
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 11, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h1 {
+  font-size: 52px;
+  color: rgba(51, 62, 72, 0.9);
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h2 {
+  font-size: 40px;
+  color: rgba(51, 62, 72, 0.9);
+}
+
+/* line 27, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h3 {
+  font-family: "Comfortaa", cursive;
+  color: rgba(51, 62, 72, 0.9);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* line 34, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h4 {
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 40, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h5 {
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+}
+
+/* line 46, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+h6 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Comfortaa", cursive;
+  color: #777777;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+a:hover {
+  color: #0094b9;
+}
+
+/* line 57, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 61, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+p,
+li {
+  font-family: "Comfortaa", cursive;
+  color: #777777;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* line 70, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+a {
+  font-weight: 500;
+  font-size: 13px;
+  color: #000;
+  font-family: "Comfortaa", cursive;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 81, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 86, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+i {
+  color: #C2C2C2;
+  margin: .75rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+/* line 94, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+i:hover {
+  color: #000;
+  opacity: 1;
+}
+
+/* line 99, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+span {
+  font-family: "Comfortaa", cursive;
+}
+
+/* line 103, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.main-btn,
+.small-btn {
+  color: #ffffff;
+  background-color: rgba(0, 147, 184, 0.8);
+  border: 0;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
+  margin: 2rem auto;
+  cursor: pointer;
+  box-shadow: 0px 6px 20px -8px #000;
+  transition: all .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 120, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.main-btn {
+  height: 38px;
+  width: 132px;
+}
+
+/* line 125, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.main-btn:hover,
+.small-btn:hover {
+  background-color: #000;
+  color: #ffffff;
+  box-shadow: 0px 10px 20px -8px #000;
+}
+
+/* line 132, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.small-btn {
+  height: 32px;
+  width: 90px;
+}
+
+/* line 138, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.container {
+  width: 80%;
+  margin: 0 auto !important;
+  max-width: 1080px;
+}
+
+/* line 144, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.container-fluid {
+  width: 100%;
+  max-width: 1920px;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.section {
+  margin: 6vh 0 !important;
+}
+
+/* line 153, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.page-heading {
+  font-size: 5.5rem;
+  display: inline-block;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/utilities.scss */
+.date {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 3, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.carousel-indicator .indicator {
+  height: 14px;
+  width: 4px;
+  margin: 3px 0;
+  background-color: #C2C2C2;
+}
+
+/* line 10, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.carousel-indicator .indicator + .active {
+  height: 60px;
+  background-color: #000;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.side-form-icons {
+  height: 135px;
+  width: 40px;
+  float: right;
+  padding: .25rem;
+  border-radius: 3px;
+  box-shadow: -2px 0px 8px 0px #C2C2C2;
+  position: sticky;
+  top: 6vh;
+  right: 50px;
+  display: block;
+}
+
+/* line 29, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.side-form-icons .icon {
+  height: 20px;
+  width: 20px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 37, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.side-form-icons .icon:hover {
+  color: #000;
+  transition: .4s;
+}
+
+/* line 42, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.side-form-icons .active {
+  color: #000;
+}
+
+/* line 49, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .link {
+  display: flex;
+  align-items: center;
+  margin: .25rem 0;
+}
+
+/* line 54, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .link * {
+  margin: 0;
+}
+
+/* line 58, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .link i {
+  color: #333E48;
+  margin-right: 10px;
+  font-size: 13px;
+  cursor: auto;
+  color: #777777;
+}
+
+/* line 67, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .social-icons {
+  margin: 1rem 0;
+}
+
+/* line 70, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .social-icons i {
+  font-size: 1rem;
+  margin-right: 1rem;
+  color: rgba(51, 62, 72, 0.9);
+}
+
+/* line 75, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.contact-links .social-icons i:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* line 83, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.breadcrub {
+  width: 100vw;
+  height: 36vh;
+  min-height: 200px;
+}
+
+/* line 90, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.breadcrub-style * {
+  color: #C2C2C2;
+}
+
+/* line 94, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.breadcrub-style .arrow {
+  font-size: 10px;
+}
+
+/* line 100, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.rotated-text {
+  position: absolute;
+  right: -32%;
+  bottom: 26%;
+  font-size: 10rem;
+  font-family: "Comfortaa", cursive;
+  transform: rotate(-90deg);
+  color: rgba(85, 85, 85, 0.1);
+  text-transform: uppercase;
+}
+
+/* line 112, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav {
+  padding: 4rem 0 1rem 0;
+}
+
+/* line 116, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li {
+  margin-right: 3rem;
+}
+
+/* line 119, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li .active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+/* line 124, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  padding: .2rem .5rem;
+}
+
+/* line 129, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li a:not(.active):after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #000;
+  width: 0;
+  position: relative;
+  right: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/* line 142, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li:hover a:not(.active):after {
+  width: 100%;
+}
+
+/* line 147, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li input {
+  border: 1px solid #E9F0F4;
+  outline: none;
+  padding: .2rem .5rem;
+}
+
+/* line 152, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li input::placeholder {
+  color: #C2C2C2;
+  font-size: 11px;
+  letter-spacing: -1px;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li input:focus {
+  border-right: 1px solid #555555;
+  transition: all .3s;
+}
+
+/* line 164, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#page-nav ul li .icon {
+  fill: #555555;
+  margin-left: .5rem;
+}
+
+/* =============================================================
+                        Accordion
+================================================================*/
+/* line 177, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card {
+  border: 0;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* line 182, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-header {
+  padding: .5rem 1.5rem;
+  background-color: #C2C2C2;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 190, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-header i {
+  font-size: 10px;
+}
+
+/* line 195, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-header h5 button {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 0.75rem;
+  color: #fff;
+}
+
+/* line 201, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-header h5 button:hover, #accordion .card .card-header h5 button:focus {
+  text-decoration: none;
+}
+
+/* line 208, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-header .icon {
+  color: #fff;
+}
+
+/* line 213, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-body {
+  width: 100%;
+  padding: .5rem 2rem;
+}
+
+/* line 217, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .card-body p {
+  margin-bottom: 0px;
+}
+
+/* line 222, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .card .collapse {
+  background-color: #fff;
+}
+
+/* line 228, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .active-card .active-header {
+  background-color: #E9F0F4;
+}
+
+/* line 232, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .active-card .active-header h5 button {
+  color: #555555;
+  font-weight: 600;
+}
+
+/* line 238, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+#accordion .active-card .active-header .icon {
+  color: #555555;
+}
+
+/* ============================================================
+                        Progress Bar
+===============================================================*/
+/* line 249, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars {
+  padding: 2rem;
+}
+
+/* line 252, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .text {
+  padding: .5rem;
+}
+
+/* line 255, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .text span {
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Comfortaa", cursive;
+  color: #777777;
+}
+
+/* line 264, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar:nth-child(1) .progress-bar {
+  width: 87%;
+}
+
+/* line 270, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar:nth-child(2) .progress-bar {
+  width: 95%;
+}
+
+/* line 276, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar:nth-child(3) .progress-bar {
+  width: 81%;
+}
+
+/* line 282, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar:nth-child(4) .progress-bar {
+  width: 79%;
+}
+
+/* line 287, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar {
+  margin-bottom: .75rem;
+}
+
+/* line 290, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar p {
+  margin: 0;
+}
+
+/* line 294, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar .progress {
+  height: 4px;
+  background-color: transparent;
+}
+
+/* line 298, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.progress-bars .bar .progress .progress-bar {
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #000 30%, #A2F8FF);
+}
+
+/*========================================================
+                    Form Style Two
+=========================================================*/
+/* line 311, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two {
+  margin: 5rem 0 3rem 0;
+}
+
+/* line 314, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group input {
+  font-size: 13px;
+}
+
+/* line 317, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group label {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 12px 10px;
+  font-family: "Comfortaa", cursive;
+  color: #555555;
+}
+
+/* line 329, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .required label:after {
+  content: "*";
+  color: red;
+}
+
+/* line 336, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-row {
+  justify-content: space-between;
+}
+
+/* line 339, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-row .col-md-6 {
+  flex: 1 0 47%;
+  max-width: 47%;
+}
+
+/* line 345, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* line 349, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group .form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+  background-color: transparent;
+}
+
+/* line 355, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+/* line 361, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.form-style-two .form-group .small-text {
+  color: #C2C2C2;
+  font-size: 9px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+}
+
+/*===========================================================
+                      Start Rating
+============================================================*/
+/* line 375, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.star-rating {
+  margin: 1rem 0;
+}
+
+/* line 377, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.star-rating .star {
+  color: #C2C2C2;
+  font-size: 13px;
+  margin-right: .3rem;
+}
+
+/* line 383, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.star-rating .checked {
+  color: #000;
+}
+
+/*===========================================================
+                        View More
+=============================================================*/
+/* line 392, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.view-more a {
+  font-size: 18px;
+  padding: .25rem;
+  color: #507F8B;
+  text-align: center;
+  border-bottom: 1px solid #507F8B;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* line 404, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.view-more a:after {
+  content: '⭢';
+  position: absolute;
+  opacity: 0;
+  right: 5px;
+  transition: 0.3s;
+}
+
+/* line 411, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.view-more a:hover {
+  padding-right: 28px;
+  padding-left: 8px;
+}
+
+/* line 416, ../../../Users/User/Desktop/smile-template/scss/common.scss */
+.view-more a:hover:after {
+  opacity: 1;
+  right: 5px;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar {
+  margin-top: 15px;
+  height: 2.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* line 5, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 11, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .only-social-icon a {
+  padding: 0 5px;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .end {
+  display: flex;
+}
+
+/* line 20, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .paraent {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 24, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .row {
+  position: relative;
+}
+
+/* line 30, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-brand {
+  margin-right: 170px;
+  font-size: .85rem;
+}
+
+/* line 39, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-brand img {
+  height: 52px;
+}
+
+/* line 43, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .margin-left {
+  padding: 0px 12px;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav .active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav .active + i {
+  color: #000;
+}
+
+/* line 57, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* line 63, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style {
+  position: absolute;
+  top: 0;
+  width: 172px;
+  padding: 0px 0;
+  left: 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  background-color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 50px;
+  transition: margin .1s linear .3s, visibility .1s linear .3s, opacity .1s linear .3s;
+  z-index: 999;
+}
+
+/* line 64, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 85, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul a {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* line 91, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul a:hover {
+  text-decoration: none;
+}
+
+/* line 95, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul i {
+  position: relative;
+  right: -10px;
+  font-size: 8px;
+}
+
+/* line 101, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul li > ul {
+  width: 100%;
+}
+
+/* line 106, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li {
+  padding: 10px 15px;
+}
+
+/* line 109, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li .active {
+  border-bottom: none;
+}
+
+/* line 115, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover > a {
+  margin-left: 4px;
+  color: #000;
+}
+
+/* line 120, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover .with-sub,
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover i {
+  color: #000;
+}
+
+/* line 125, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  margin-left: -10px;
+}
+
+/* line 132, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style .sub-menu {
+  padding: 0px 0px;
+  width: 150px;
+  transition: all 250ms ease-out;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 105%;
+  margin-left: -25px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li i {
+  font-size: 7px;
+  color: #545454;
+  margin: 6px;
+}
+
+/* line 155, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li a {
+  font-size: 14px;
+  margin-right: 2px;
+  font-weight: 800;
+  font-family: 'Cardo', serif;
+}
+
+/* line 162, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li a:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #000;
+  width: 0;
+  position: relative;
+  right: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  display: none;
+}
+
+/* line 174, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li:first-child {
+  margin: 0;
+}
+
+/* line 181, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li:hover a.nav-link,
+#navbar .navbar .navbar-nav li:hover .fa-chevron-down {
+  color: #000;
+  transition: all .3s;
+}
+
+/* line 187, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li:hover a.nav-link:not(.active):after {
+  width: 100%;
+}
+
+/* line 191, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li:hover .dropdown-menu-style {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 35px;
+}
+
+/* line 198, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav img {
+  width: 225px;
+  margin-right: 85px;
+}
+
+/* line 205, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav {
+  width: 332px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 212, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav a {
+  padding: 0 10px;
+}
+
+/* line 216, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .flag {
+  width: 30px;
+  height: 30px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+/* line 224, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .search,
+#navbar .side-nav .auth {
+  height: 20px;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #777777;
+}
+
+/* line 235, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .search .icon {
+  fill: #777777;
+  transition: all .3s;
+}
+
+/* line 239, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .search .icon:hover {
+  fill: rgba(51, 62, 72, 0.9);
+}
+
+/* line 245, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .auth {
+  border-right: 1px solid #777777;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 252, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .auth:hover {
+  color: rgba(51, 62, 72, 0.9);
+}
+
+/* line 257, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .location .active {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* line 263, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .location .dropdown-menu {
+  min-width: 60px;
+  border: none;
+  padding-top: 1rem;
+}
+
+/* line 267, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .side-nav .location .dropdown-menu .dropdown-item {
+  padding: .75rem 0;
+  cursor: pointer;
+}
+
+/* line 280, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(51, 62, 72, 0.9);
+  transition: all ease-in-out .3s;
+  z-index: 99999;
+}
+
+/* line 292, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap.search-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 296, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap.search-visible .search-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 302, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content {
+  display: inline-block;
+  max-width: 90%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in-out .3s;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+/* line 312, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content .search-form {
+  position: relative;
+}
+
+/* line 315, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content .search-form input {
+  width: 550px;
+  background-color: #fff;
+  border: 0;
+  font-size: 14px;
+  padding: 1rem 1.5rem;
+  color: rgba(51, 62, 72, 0.9);
+  transition: all .3s ease-out;
+  font-weight: 400;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 329, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content .search-close {
+  display: block;
+  position: absolute;
+  top: -40%;
+  left: 97%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  transition: all .3s;
+}
+
+/* line 340, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content .search-close:hover {
+  background-color: #507F8B;
+}
+
+/* line 344, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .search-content-wrap .search-content .search-close .icon {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* line 353, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover > a {
+  color: #f8f9fa;
+}
+
+/* line 356, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+#navbar .navbar .navbar-nav li .dropdown-menu-style ul > li > ul > li:hover {
+  background-color: #FE6F61;
+  color: #fff;
+}
+
+/* line 360, ../../../Users/User/Desktop/smile-template/scss/navbar.scss */
+.myclass .search .search-active:hover i {
+  color: #000;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog {
+  background-color: #F7F7F7;
+  padding: 4rem;
+}
+
+/* line 5, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel {
+  margin: 5rem 4rem;
+  position: relative;
+}
+
+/* line 9, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .card {
+  z-index: 99;
+  border: none;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .card .card-body {
+  padding: 1.25rem 2rem 1.5rem 2rem;
+}
+
+/* line 15, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .card .card-body p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 21, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-icon {
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+/* line 25, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-icon li {
+  position: absolute;
+  top: 45%;
+}
+
+/* line 28, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-icon li.next {
+  display: block;
+  height: 20px;
+  width: 20px;
+  right: -40px;
+  background: url("../assets/svg/right-arrow.svg") no-repeat;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-icon li.prev {
+  display: block;
+  height: 20px;
+  width: 20px;
+  left: -40px;
+  background: url("../assets/svg/left-arrow.svg") no-repeat;
+}
+
+/* line 46, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-indicator {
+  position: absolute;
+  left: -80px;
+  top: 50%;
+}
+
+/* line 50, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-indicator .indicator {
+  height: 14px;
+  width: 4px;
+  margin: 3px 0;
+  background-color: #C2C2C2;
+}
+
+/* line 57, ../../../Users/User/Desktop/smile-template/scss/blogs.scss */
+#blog .blog-carousel .carousel-indicator .indicator + .active {
+  height: 60px;
+  background-color: #000;
+}
+
+/* line 2, ../../../Users/User/Desktop/smile-template/scss/achievement.scss */
+#achievement h1 {
+  font-family: "Comfortaa", cursive;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/achievement.scss */
+#achievement h4 {
+  font-size: 18px;
+  color: rgba(85, 85, 85, 0.9);
+}
+
+/* line 11, ../../../Users/User/Desktop/smile-template/scss/achievement.scss */
+#achievement .row {
+  padding: 2rem 0;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer {
+  margin-top: 6vh;
+}
+
+/* line 4, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content {
+  border-top: 1px solid #F0F0F0;
+  padding: 4rem 0;
+}
+
+/* line 8, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content h5 {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  padding-bottom: .5rem;
+}
+
+/* line 14, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content a {
+  font-size: 13px;
+  color: #777777;
+}
+
+/* line 19, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content a:hover {
+  color: #000;
+}
+
+/* line 23, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content li {
+  margin: .5rem 0;
+}
+
+/* line 27, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .brand-logo {
+  height: 45px;
+  margin-bottom: 3rem;
+}
+
+/* line 33, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter p {
+  margin: 1.5rem 0;
+}
+
+/* line 38, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter form * {
+  height: 35px;
+  margin: 0;
+  border: 0;
+}
+
+/* line 44, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter form input {
+  width: 75%;
+  background-color: #E9F0F4;
+  padding: .25rem 1.5rem;
+}
+
+/* line 49, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter form input::placeholder {
+  color: #C2C2C2;
+  font-size: 12px;
+}
+
+/* line 54, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter form input:focus {
+  outline: 1px solid #000;
+}
+
+/* line 59, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .footer-content .newsletter form .main-btn {
+  width: 20%;
+  margin: 0;
+}
+
+/* line 67, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright {
+  background-color: #000;
+  position: relative;
+}
+
+/* line 71, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright .container-fluid {
+  position: relative;
+}
+
+/* line 74, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright .container-fluid p {
+  padding: 2rem 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* line 82, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright .container-fluid span {
+  color: #FC6B6B;
+}
+
+/* line 86, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright #scroll-top {
+  display: inline-block;
+  background-color: #C2C2C2;
+  position: absolute;
+  right: 60px;
+  bottom: 25px;
+  height: 35px;
+  margin-bottom: -20px;
+  width: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+/* line 99, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright #scroll-top .icon {
+  display: block;
+  fill: #ffffff;
+}
+
+/* line 104, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright #scroll-top:hover {
+  background-color: #000;
+}
+
+/* line 108, ../../../Users/User/Desktop/smile-template/scss/footer.scss */
+#footer .copyright .active {
+  margin: 0px !important;
+  position: fixed !important;
+  transition: .3s;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+h2 {
+  margin-bottom: 3rem;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid {
+  height: 36vh;
+  min-height: 280px;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+/* line 14, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid .row {
+  height: 100%;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid .row .bg-img {
+  background: url("../assets/University/About-us-1/bia-andrade-559179-unsplash2@2x.png") no-repeat center center/cover;
+  height: 100%;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid .row .bg-color {
+  background-color: rgba(158, 182, 188, 0.5);
+  height: 90%;
+}
+
+/* line 28, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid .heading {
+  position: absolute;
+  top: 18%;
+  right: 18%;
+  background-color: #ffffff;
+  padding: 4vh 7vw;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#breadcrub .container-fluid .heading h1 {
+  font-size: 5.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 44, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container {
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .content {
+  padding: 4rem 3rem;
+}
+
+/* line 51, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .content h2 {
+  margin-bottom: 2rem;
+}
+
+/* line 56, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .media {
+  padding: 0px;
+}
+
+/* line 59, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .media .img-fluid {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 65, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .halfway-btn {
+  position: absolute;
+  left: 66.666667%;
+  width: 60px;
+  height: 60px;
+  top: 70%;
+  background-color: #000;
+  border: 0;
+  border-radius: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  outline: none;
+  cursor: pointer;
+}
+
+/* line 79, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .halfway-btn:hover {
+  animation: pulse 1s infinite;
+}
+
+/* line 83, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mantra .container .halfway-btn .icon {
+  fill: #ffffff;
+}
+
+/* line 91, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#mission .content, #vision .content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* line 98, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .content {
+  padding: 2rem;
+}
+
+/* line 104, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .top-content .media {
+  padding: 0;
+}
+
+/* line 107, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .top-content .row {
+  background-color: #F7F7F7;
+}
+
+/* line 114, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row {
+  background-color: #F7F9FA;
+  padding-top: 2rem;
+}
+
+/* line 118, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 122, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars {
+  padding: 2rem;
+}
+
+/* line 124, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .text {
+  padding: .5rem;
+}
+
+/* line 127, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .text span {
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Comfortaa", cursive;
+  color: #777777;
+}
+
+/* line 135, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar:nth-child(1) .progress-bar {
+  width: 87%;
+}
+
+/* line 141, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar:nth-child(2) .progress-bar {
+  width: 95%;
+}
+
+/* line 147, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar:nth-child(3) .progress-bar {
+  width: 81%;
+}
+
+/* line 153, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar:nth-child(4) .progress-bar {
+  width: 79%;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar {
+  margin-bottom: .75rem;
+}
+
+/* line 160, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar p {
+  margin: 0;
+}
+
+/* line 163, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar .progress {
+  height: 4px;
+  background-color: transparent;
+}
+
+/* line 166, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#values .container .bottom-content .row .progress-bars .bar .progress .progress-bar {
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #000 30%, #A2F8FF);
+}
+
+/* line 179, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers {
+  background-color: #F7F9FA;
+  padding: 3rem 0;
+  position: relative;
+}
+
+/* line 184, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel {
+  margin: 3rem 0;
+}
+
+/* line 187, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .row {
+  position: relative;
+}
+
+/* line 190, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .row .carousel-control-prev, #teachers .teachers-carousel .row .carousel-control-next {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #555555;
+  cursor: pointer;
+}
+
+/* line 196, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .row .carousel-control-prev .carousel-icon, #teachers .teachers-carousel .row .carousel-control-next .carousel-icon {
+  fill: #ffffff;
+}
+
+/* line 201, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .row .carousel-control-prev {
+  top: 0px;
+  left: 8px;
+}
+
+/* line 205, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .row .carousel-control-next {
+  top: calc(100% - 120px);
+  right: 8px;
+}
+
+/* line 212, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher {
+  padding: 0 .5rem;
+}
+
+/* line 215, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher h6 {
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+
+/* line 219, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card {
+  position: relative;
+  border: 0;
+  border-radius: 0;
+}
+
+/* line 221, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card > i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #000;
+  font-size: 1rem;
+}
+
+/* line 230, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card p {
+  font-size: 11px;
+  margin: 0;
+}
+
+/* line 234, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card .card-img-top {
+  border-radius: 0;
+}
+
+/* line 238, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card .card-body {
+  padding: 1rem 2rem .25rem 2rem;
+}
+
+/* line 242, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card .social-icons {
+  float: right;
+}
+
+/* line 244, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .teachers-carousel .teacher .card .social-icons i {
+  font-size: 13px;
+  margin: 2px;
+  color: rgba(50, 61, 71, 0.9);
+}
+
+/* line 254, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#teachers .carousel-indicator {
+  position: absolute;
+  left: 4vw;
+  top: 50%;
+}
+
+/* line 262, ../../../Users/User/Desktop/smile-template/scss/about-page.scss */
+#opportunity h2 {
+  margin-bottom: .75rem;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses-breadcrub {
+  background: url("../assets/University/Courses/paula-brustur-766878-unsplash copy@2x.png") center center/cover;
+  position: relative;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses-breadcrub .heading h1 {
+  position: absolute;
+  bottom: 3rem;
+}
+
+/* line 15, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course {
+  margin: 0rem .5rem 1.5rem .5rem;
+}
+
+/* line 18, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card {
+  position: relative;
+  border: 0;
+  border-radius: 0;
+}
+
+/* line 21, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card > i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* line 32, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card .card-img-top {
+  border-radius: 0;
+}
+
+/* line 36, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card .card-img-overlay {
+  all: initial;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+}
+
+/* line 44, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card .card-img-overlay .card-body {
+  padding: .5rem 2rem .5rem 2rem;
+  background-color: #F7F7F7;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card .card-img-overlay .card-body h6 {
+  margin-bottom: 2px;
+  color: #555555;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .card-columns .course .card .card-img-overlay .card-body p {
+  font-size: 12px;
+  color: #555555;
+  margin: 0px;
+}
+
+/* line 64, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .main-btn {
+  margin: 3rem auto;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* line 70, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .main-btn:after {
+  content: '⭢';
+  position: absolute;
+  opacity: 0;
+  right: 20px;
+  transition: 0.3s;
+}
+
+/* line 78, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .main-btn:hover {
+  padding-right: 28px;
+  padding-left: 8px;
+}
+
+/* line 83, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#courses .main-btn:hover:after {
+  opacity: 1;
+  right: 15px;
+}
+
+/* line 89, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership {
+  background-color: rgba(158, 182, 188, 0.3);
+  padding: 3rem 0 1rem 0;
+}
+
+/* line 93, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards {
+  margin: 4rem 2rem;
+  position: relative;
+}
+
+/* line 96, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .rotated-text {
+  font-size: 8.5rem;
+  right: -34%;
+  bottom: 36%;
+}
+
+/* line 102, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card {
+  background-color: #F7F7F7;
+  width: 32%;
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+/* line 108, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card *:not(.main-btn) {
+  color: #507F8B;
+}
+
+/* line 112, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card img {
+  height: 80px;
+  margin-bottom: 2rem;
+}
+
+/* line 117, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+/* line 122, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .price {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* line 127, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .price i {
+  margin: .5rem .25rem;
+}
+
+/* line 131, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .price h1 {
+  font-size: 4.5rem;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 0;
+}
+
+/* line 137, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .price .time {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+/* line 145, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .features .feature {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* line 150, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .features .feature i {
+  font-size: 10px;
+  margin: .25rem 1rem .25rem 0;
+}
+
+/* line 155, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .features .feature p {
+  font-size: 11px;
+  margin-bottom: 0;
+  line-height: 15px;
+}
+
+/* line 163, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card .main-btn {
+  margin: 2rem auto 1rem auto;
+}
+
+/* line 167, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active {
+  background-color: #ffffff;
+  width: 36%;
+  padding: 5rem 3rem;
+  z-index: 10;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0 3px 8px 4px #cccccc;
+}
+
+/* line 191, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active *:not(.main-btn) {
+  color: #333E48;
+}
+
+/* line 195, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active img {
+  height: 100px;
+}
+
+/* line 199, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active .features {
+  margin: 1rem 0;
+}
+
+/* line 203, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active .features .feature i {
+  color: #000;
+}
+
+/* line 209, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .price-cards .price-card + .active .main-btn {
+  margin: 3rem auto 0 auto;
+}
+
+/* line 217, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables {
+  margin: 4rem 2rem;
+}
+
+/* line 220, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table {
+  background-color: #F7F7F7;
+  border: 2px solid #cccccc;
+  font-family: "Comfortaa", cursive;
+}
+
+/* line 225, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table * {
+  border: none;
+  color: #555555;
+}
+
+/* line 230, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table tr {
+  border-bottom: 1px solid #cccccc;
+  margin: 0 2rem;
+}
+
+/* line 233, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table tr th, #membership .package-tables .package-table tr td {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+/* line 238, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table tr th i, #membership .package-tables .package-table tr td i {
+  margin: 0;
+  color: #0093B9;
+}
+
+/* line 243, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table tr td {
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+/* line 251, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table tbody tr > th {
+  padding-left: 4rem;
+}
+
+/* line 256, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#membership .package-tables .package-table thead th {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* line 268, ../../../Users/User/Desktop/smile-template/scss/courses-page.scss */
+#features .container .row h2 {
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blogs-breadcrub {
+  height: 36vh;
+  min-height: 200px;
+  background: url("../assets/University/Blog/stil-564511-unsplash@2x.png") center center/cover;
+  position: relative;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blogs-breadcrub .heading {
+  height: 80px;
+  width: 35vw;
+  background-color: rgba(233, 240, 244, 0.9);
+  position: absolute;
+  bottom: 0;
+  padding: .25rem 2rem;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blogs-breadcrub .heading h1 {
+  font-size: 5.5rem;
+  position: absolute;
+  bottom: -2.5rem;
+}
+
+/* line 23, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .container-fluid {
+  padding-right: 0;
+}
+
+/* line 27, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .img-fluid {
+  width: 100%;
+}
+
+/* line 32, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .side-media {
+  background: url("../assets/University/Blog/architecture-balcony-blue-887820@2x.png") no-repeat center center/cover;
+  height: 110vh;
+  min-height: 900px;
+  margin-top: 15vh;
+}
+
+/* line 40, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed h4 {
+  margin: 3rem 0;
+}
+
+/* line 44, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post {
+  display: flex;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post i {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post .post-detail {
+  margin-left: 1rem;
+}
+
+/* line 55, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post .post-detail p {
+  margin-bottom: .25rem;
+  color: #333E48;
+}
+
+/* line 60, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post .post-detail .time {
+  font-size: 9px;
+}
+
+/* line 65, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .side-section .social-feed .post:hover i {
+  color: #000;
+}
+
+/* line 73, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog {
+  margin-bottom: 4rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* line 82, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content p, #blog-area .blog-content .content h6 {
+  color: #555555;
+}
+
+/* line 86, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content p {
+  margin: 1.5rem 0;
+}
+
+/* line 90, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .date {
+  color: #333E48;
+  margin: 1rem 0;
+  letter-spacing: 1px;
+}
+
+/* line 96, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .react {
+  display: flex;
+  align-items: center;
+  margin: .25rem 0;
+}
+
+/* line 101, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .react p, #blog-area .blog-content .content .react i {
+  color: #333E48;
+  font-size: 11px;
+}
+
+/* line 105, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .react i {
+  margin: 0 .5rem 0 0;
+}
+
+/* line 108, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .react p {
+  margin: 0;
+}
+
+/* line 113, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .content .small-btn {
+  margin: 3rem 0 0 0;
+}
+
+/* line 119, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area .blog-content .inner-content {
+  position: relative;
+  left: 12%;
+  top: -8vh;
+  z-index: 10;
+}
+
+/* line 127, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* line 133, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .next, #blog-area #pagination .prev {
+  background-color: #555555;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 142, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .next .carousel-icon, #blog-area #pagination .prev .carousel-icon {
+  fill: #ffffff;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 148, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .page-num {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 153, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .page-num .current {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .page-num .divider, #blog-area #pagination .page-num .total {
+  position: relative;
+}
+
+/* line 162, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .page-num .divider {
+  height: 1.5rem;
+  width: 1px;
+  background-color: #707070;
+  top: .5rem;
+}
+
+/* line 168, ../../../Users/User/Desktop/smile-template/scss/blog-page.scss */
+#blog-area #pagination .page-num .total {
+  font-size: 1rem;
+  color: #C2C2C2;
+  top: 1rem;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#breadcrub-style-2 {
+  border-left: 8px solid #000;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#breadcrub-style-2 .breadcrub-style {
+  margin-top: 2rem;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail h2 {
+  margin-bottom: 1rem;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .heading {
+  margin: 3rem 0;
+}
+
+/* line 20, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .heading p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  margin-bottom: .5rem;
+}
+
+/* line 28, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .media-grid {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 34, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .media-grid .img {
+  padding: .6rem;
+}
+
+/* line 38, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .media-grid .img-fluid {
+  width: 100%;
+}
+
+/* line 42, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .media-grid .side-social-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -5rem;
+  top: 10rem;
+}
+
+/* line 52, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .blog-text {
+  margin: 3rem 0;
+}
+
+/* line 56, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .reacts {
+  display: flex;
+}
+
+/* line 59, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .reacts .react {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+/* line 64, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .reacts .react p,
+#blog-detail .blog-contents .reacts .react i {
+  color: #333E48;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* line 71, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .reacts .react i {
+  margin: 0 .5rem 0 0;
+}
+
+/* line 75, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .reacts .react p {
+  margin: 0;
+}
+
+/* line 81, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .more {
+  float: right;
+}
+
+/* line 86, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .more:hover a,
+#blog-detail .blog-contents .more:hover .arrow {
+  color: #000;
+}
+
+/* line 92, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .more a {
+  font-size: 10px;
+  color: #707070;
+}
+
+/* line 97, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-detail .blog-contents .more .arrow {
+  font-size: 13px;
+}
+
+/* line 106, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#comment h2, #post-comment h2, #author h2 {
+  margin: 6rem 0 4rem 0;
+}
+
+/* line 113, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#comment .comment-list .comment {
+  margin: 2rem 0;
+}
+
+/* line 116, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#comment .comment-list .comment .name {
+  margin: 0;
+  font-weight: 700;
+}
+
+/* line 121, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#comment .comment-list .comment .time {
+  font-size: 10px;
+}
+
+/* line 132, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group input {
+  font-size: 13px;
+}
+
+/* line 135, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group label {
+  position: absolute;
+  bottom: -4px;
+  left: 18px;
+  font-size: 12px;
+  font-family: "Comfortaa", cursive;
+}
+
+/* line 142, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group input:valid + label {
+  display: none;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .required label:after {
+  content: "*";
+  color: red;
+}
+
+/* line 156, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-row {
+  justify-content: space-between;
+}
+
+/* line 159, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-row .col-md-6 {
+  flex: 1 0 47%;
+  max-width: 47%;
+}
+
+/* line 165, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* line 169, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group .form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+}
+
+/* line 174, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+/* line 180, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment form .form-group .small-text {
+  color: #C2C2C2;
+  font-size: 9px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+}
+
+/* line 191, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#post-comment .main-btn {
+  margin: 1rem 0;
+}
+
+/* line 197, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#author .name {
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 202, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#author .title {
+  font-size: 11px;
+}
+
+/* line 206, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#author .about {
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+/* line 211, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#author .social-icons i {
+  margin: 0 .75rem 0 0;
+  color: #555555;
+}
+
+/* line 215, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#author .social-icons i:hover {
+  color: #000;
+}
+
+/* line 222, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two {
+  background-color: #F7F7F7;
+  padding: 4rem;
+}
+
+/* line 226, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel {
+  margin: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 232, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .card {
+  z-index: 99;
+  border: none;
+}
+
+/* line 236, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .card .card-body {
+  padding: 1.25rem 2rem 1.5rem 2rem;
+}
+
+/* line 238, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .card .card-body p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 244, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 110%;
+  position: absolute;
+  top: 105%;
+}
+
+/* line 250, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon li {
+  display: flex;
+}
+
+/* line 253, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon li.next .icon, #blog-two .blog-carousel .carousel-icon li.prev .icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+  right: -40px;
+}
+
+/* line 260, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon li.next .text, #blog-two .blog-carousel .carousel-icon li.prev .text {
+  margin: 0 .75rem;
+}
+
+/* line 265, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon li.next .icon {
+  background: url("../assets/svg/right-arrow.svg") no-repeat;
+}
+
+/* line 271, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-icon li.prev .icon {
+  background: url("../assets/svg/left-arrow.svg") no-repeat;
+}
+
+/* line 279, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-indicator {
+  position: absolute;
+  left: -80px;
+  top: 50%;
+}
+
+/* line 283, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-indicator .indicator {
+  height: 14px;
+  width: 4px;
+  margin: 3px 0;
+  background-color: #C2C2C2;
+}
+
+/* line 290, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#blog-two .blog-carousel .carousel-indicator .indicator + .active {
+  height: 60px;
+  background-color: #000;
+}
+
+/* line 298, ../../../Users/User/Desktop/smile-template/scss/blog-detail.scss */
+#footer {
+  margin-top: 1vh;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#event-breadcrub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#event-breadcrub .container-fluid {
+  background: url("../assets/University/Events/stil-564511-unsplash@2x.png") no-repeat center center/cover;
+}
+
+/* line 10, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#event-breadcrub h1 {
+  border-bottom: 1px solid #0093B9;
+  padding: 1rem 0 .15rem 0;
+}
+
+/* line 16, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#page-nav {
+  padding: 1rem 0 0 0;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event {
+  margin: 5rem 0;
+}
+
+/* line 25, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .date, #events-wide-img .container .event .img {
+  padding: 0;
+}
+
+/* line 29, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event h1,
+#events-wide-img .container .event h5 {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: .75rem 0;
+  color: rgba(51, 62, 72, 0.9);
+}
+
+/* line 38, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event h1 {
+  font-size: 4.7rem;
+  padding: 0px;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+/* line 44, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event h4 {
+  font-weight: 700;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event h5 {
+  font-size: 1rem;
+}
+
+/* line 51, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 58, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .details p {
+  margin: 1rem 0 .5rem 0;
+}
+
+/* line 62, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .details .main-btn {
+  margin: 1rem 0;
+}
+
+/* line 68, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .details .event-infos .info {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  margin-right: 2.5rem;
+}
+
+/* line 74, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .details .event-infos .info span {
+  font-size: 11px;
+  margin: 0;
+  color: #555555;
+}
+
+/* line 80, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .event .details .event-infos .info i {
+  color: rgba(51, 62, 72, 0.9);
+  margin: 0 .5rem 0 0;
+  font-size: 14px;
+}
+
+/* line 91, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .odd-event .details {
+  padding-left: 2rem;
+}
+
+/* line 97, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .even-event .details {
+  padding-right: 2rem;
+}
+
+/* line 101, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .even-event .date {
+  text-align: right;
+}
+
+/* line 107, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .more a {
+  font-size: 18px;
+  padding: .25rem;
+  color: #507F8B;
+  text-align: center;
+  border-bottom: 1px solid #507F8B;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* line 119, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .more a:after {
+  content: '⭢';
+  position: absolute;
+  opacity: 0;
+  right: 5px;
+  transition: 0.3s;
+}
+
+/* line 126, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .more a:hover {
+  padding-right: 28px;
+  padding-left: 8px;
+}
+
+/* line 131, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#events-wide-img .container .more a:hover:after {
+  opacity: 1;
+  right: 5px;
+}
+
+/* line 139, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 143, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .next, #pagination .prev {
+  height: 25px;
+  width: 25px;
+  background-color: #C2C2C2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 .75rem;
+}
+
+/* line 153, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .next .carousel-icon, #pagination .prev .carousel-icon {
+  height: 15px;
+  fill: #ffffff;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num {
+  display: flex;
+  align-items: center;
+}
+
+/* line 161, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num a {
+  font-size: 14px;
+  margin: 0 .5rem;
+}
+
+/* line 165, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num .current {
+  color: #000;
+  font-weight: 700;
+}
+
+/* line 169, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num .total {
+  color: #C2C2C2;
+}
+
+/* line 173, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num .page-indicators {
+  display: flex;
+}
+
+/* line 175, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num .page-indicators .indicator {
+  height: 3px;
+  width: 1.5rem;
+  background-color: #C2C2C2;
+}
+
+/* line 181, ../../../Users/User/Desktop/smile-template/scss/event-page.scss */
+#pagination .page-num .page-indicators .active {
+  width: 2.5rem;
+  background-color: #000;
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/404.scss */
+#not-found {
+  height: 100vh;
+  width: 100vw;
+  background: url("../assets/University/404/404@2x.png") no-repeat center center/cover;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/404.scss */
+#not-found .content {
+  position: relative;
+  top: 75vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/404.scss */
+#not-found h3 {
+  color: #ffffff;
+}
+
+/* line 2, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid {
+  padding-right: 0;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid .content {
+  padding: 0 2% 0 10%;
+}
+
+/* line 8, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid .content #accordion {
+  margin-top: 2rem;
+}
+
+/* line 11, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid .content #accordion .card-header {
+  padding: .5rem;
+}
+
+/* line 14, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid .content #accordion .card-header h5 button {
+  font-size: 14px;
+}
+
+/* line 21, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#questions .container-fluid .side-media {
+  background: url("../assets/University/FAQ/book-bookcase-books-1166657@2x.png") no-repeat center center/cover;
+  height: 85vh;
+  min-height: 800px;
+}
+
+/* line 29, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#question-form {
+  background-color: #F7F7F7;
+  padding: 4rem 0;
+}
+
+/* line 33, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#question-form img {
+  height: 60px;
+}
+
+/* line 37, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#question-form h2 {
+  margin: 1.5rem;
+}
+
+/* line 40, ../../../Users/User/Desktop/smile-template/scss/faq.scss */
+#question-form h5 {
+  color: #333E48;
+}
+
+/* line 2, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid {
+  padding: 0;
+  background-color: #F7F7F7;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content {
+  padding: 2rem 3rem 2rem 18vw;
+}
+
+/* line 9, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .text {
+  margin: 0 1.5rem;
+}
+
+/* line 12, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .text h2 {
+  margin-bottom: 1rem;
+}
+
+/* line 17, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two {
+  padding: 3rem 2rem;
+  margin: 3rem 0;
+  background-color: #ffffff;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group {
+  margin: 0;
+}
+
+/* line 25, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group label {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* line 30, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group input {
+  padding: .25rem .5rem;
+  margin: .25rem 0 1rem 0;
+}
+
+/* line 34, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group input::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+
+/* line 39, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  margin: 0 2rem;
+  position: relative;
+  border-radius: 40px;
+  background-color: rgba(158, 182, 188, 0.4);
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch::after {
+  content: "";
+}
+
+/* line 52, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch input {
+  display: none;
+}
+
+/* line 56, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch input:checked + .slider:before {
+  transform: translateX(30px);
+  background: #000;
+}
+
+/* line 61, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* line 71, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .toggle-switch .slider::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 30px;
+  transform: translateX(-30px);
+  transition: .3s;
+}
+
+/* line 84, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .options {
+  display: flex;
+}
+
+/* line 86, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .form-group .options p {
+  margin: .75rem 2rem .5rem 0;
+  font-weight: 700;
+}
+
+/* line 93, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .content .form-style-two .main-btn {
+  margin: 2rem 0;
+}
+
+/* line 99, ../../../Users/User/Desktop/smile-template/scss/join.scss */
+#teacher-form .container-fluid .media {
+  background: url("../assets/University/join_us/teacher-students.png") center center/cover;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 12px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 12px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@media (max-width: 1920px) {
+  /* line 2, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  .container-fluid {
+    width: 100%;
+    padding: 0px 70px;
+  }
+  /* line 10, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  #showcase .container-fluid .row .col-3 {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 1365px) {
+  /* line 20, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  .container-fluid {
+    padding: 0px 50px;
+  }
+  /* line 25, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  #events .container .event {
+    display: flex;
+    align-items: center;
+  }
+  /* line 32, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  #events .container .second-event .col-2, #events .container .second-event .col-6 {
+    margin-top: 0 !important;
+  }
+  /* line 38, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  #events .container .first-event .col-2, #events .container .first-event .col-6 {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 50, ../../../Users/User/Desktop/smile-template/scss/responsive.scss */
+  .container-fluid {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg {
+  background: url("../assets/header-bg-img/logo-bg-2@2x.png") no-repeat center center/cover;
+  text-align: center;
+  height: 163px;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg .logo a img {
+  height: 120px;
+  width: auto;
+  position: relative;
+  top: 20px;
+}
+
+/* line 18, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon {
+  text-align: right;
+  margin-top: -52px;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon li {
+  display: inline;
+}
+
+/* line 25, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon a {
+  display: inline-block;
+}
+
+/* line 29, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .navigetion-item {
+  text-align: center;
+  margin-top: -52px;
+}
+
+/* line 33, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .navigetion-item li {
+  display: inline;
+  padding: 0px 40px 0px 40px;
+}
+
+/* line 3, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-box-item-one {
+  position: relative;
+}
+
+/* line 6, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-box-item-one img {
+  width: 100%;
+  height: 324px;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text {
+  position: absolute;
+  width: 263px;
+  background-color: #f8f9fa;
+  bottom: 0;
+  text-align: center;
+  height: 154px;
+  padding-top: 50px;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text span {
+  font-size: 10px;
+  color: #000;
+}
+
+/* line 26, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text h5 {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-box-item-one-heading {
+  padding-top: 30px;
+}
+
+/* line 41, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-box-item-one-heading h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* line 46, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-box-item-one-heading p {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #848484;
+}
+
+/* line 54, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .heading {
+  text-align: center;
+}
+
+/* line 58, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .heading h1 {
+  font-size: 25px;
+  font-style: italic;
+  color: #000;
+}
+
+/* line 66, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .border-one {
+  border: 1px dotted #DDDDDD;
+  width: 92%;
+  position: relative;
+  top: -23px;
+}
+
+/* line 74, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .border-one::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -19px;
+  height: 38px;
+  width: 17px;
+  border-right: 2px dotted #DDDDDD;
+}
+
+/* line 91, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text:hover {
+  background-color: #FE6F61;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+/* line 97, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text:hover span {
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 104, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .img-overly-text:hover h5 {
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 110, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .active {
+  background-color: #FE6F61;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+/* line 115, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .active span {
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 119, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+#story-section .active h5 {
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 131, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.border-two {
+  border: 1px dotted #DDDDDD;
+  width: 92%;
+  position: relative;
+  top: -23px;
+  margin: 0 auto;
+  right: -35px;
+}
+
+/* line 139, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.border-two::after {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: -19px;
+  height: 38px;
+  width: 17px;
+  border-right: 2px dotted #DDDDDD;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.border-one::before {
+  content: "";
+  position: absolute;
+  border-top: 1px solid gray;
+  content: "";
+  position: absolute;
+  right: -17px;
+  top: -19px;
+  height: 38px;
+  width: 17px;
+  border-top: 2px dotted #DDDDDD;
+}
+
+/* line 161, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.border-two::before {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: -19px;
+  height: 38px;
+  width: 17px;
+  border-top: 2px dotted #DDDDDD;
+}
+
+/* line 170, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.heading {
+  position: relative;
+}
+
+/* line 174, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.heading h1::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px dotted #DDDDDD;
+  height: 1px;
+  width: 13px;
+  top: 36px;
+  left: 951px;
+}
+
+/* line 183, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.heading h1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 2px dotted #DDDDDD;
+  height: 1px;
+  width: 13px;
+  top: 36px;
+  right: 952px;
+}
+
+/* line 192, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.margin-top {
+  margin-top: 50px;
+}
+
+/* line 195, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.button-font-size {
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+
+/* line 200, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.extra-padding {
+  padding: 10px 36px;
+  z-index: 10000;
+  border-color: #707070;
+  position: absolute;
+}
+
+/* line 206, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.btn-new {
+  border: 1px solid #707070;
+  width: 137px;
+  height: 39px;
+  border-radius: 0;
+  position: relative;
+  right: 6px;
+  top: -7px;
+  z-index: -1;
+}
+
+/* line 216, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.padding-bottom {
+  padding-bottom: 40px;
+}
+
+/* line 219, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.every-section-margin-top {
+  margin-top: 108px;
+}
+
+/* line 223, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 228, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area .btn-One {
+  width: 280px;
+  height: 80px;
+  border: 1px solid #707070;
+  border-radius: 0;
+  z-index: 999;
+}
+
+/* line 236, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area span {
+  background-color: #fff;
+  color: #707070;
+  position: absolute;
+  left: 6%;
+  top: 11%;
+  z-index: -1;
+  font-size: 14px;
+  transition: all .3s;
+  border: 1px solid #707070;
+  width: 282px;
+  height: 85px;
+  padding: 25px 0px;
+}
+
+/* line 251, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area .btn-One {
+  width: 280px;
+  height: 80px;
+  border: 1px solid #707070;
+  border-radius: 0;
+  z-index: -1;
+}
+
+/* line 260, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area .btn-One:hover {
+  width: 279px;
+  height: 80px;
+  border: 1px solid #FE6F61;
+  border-radius: 0;
+  z-index: 999;
+}
+
+/* line 268, ../../../Users/User/Desktop/smile-template/scss/story-section.scss */
+.main-btn-area:hover span {
+  background-color: #FE6F61;
+  padding: 30px 96px;
+  color: #fff;
+  position: absolute;
+  left: 3%;
+  top: 8%;
+  z-index: -1;
+  font-size: 14px;
+  transition: all .3s;
+  border-color: transparent;
+}
+
+/* line 3, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .slider-img-one {
+  background: url("../assets/slider-img/adult-attractive-beautiful-3@2x.png") no-repeat center center/cover;
+  text-align: center;
+  height: 73vh;
+  background-position: initial;
+  width: 26vw;
+  position: relative;
+  left: -78px;
+  top: 15px;
+}
+
+/* line 18, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .slider-text-item h3 {
+  font-size: 42px;
+  font-family: "cardo", cursive;
+  font-weight: 800;
+  color: #000;
+  padding-left: 25px;
+  padding-top: 49px;
+  padding-bottom: 30px;
+  width: 546px;
+}
+
+/* line 31, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .slider-img1 {
+  background: url("../assets/slider-img/adventure-arch-back-view-307006@2x.png") no-repeat center center/cover;
+  text-align: center;
+  height: 55vh;
+}
+
+/* line 37, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .slider-img2 {
+  background: url("../assets/slider-img/buildings-cellphone-cheerful-1586486@2x.png") no-repeat center center/cover;
+  text-align: center;
+  height: 35vh;
+  width: 18vw;
+}
+
+/* line 45, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .button-area {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 22%;
+}
+
+/* line 50, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .button-area .btn-one {
+  background-color: #ffffff;
+  padding: 3px 4px;
+  position: relative;
+  top: 20px;
+  border: .5px solid #F0F0F0;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* line 58, ../../../Users/User/Desktop/smile-template/scss/slider-img.scss */
+#slider-img .button-area .btn-two {
+  background-color: #ffffff;
+  padding: 3px 4px;
+  position: relative;
+  top: 63px;
+  border: .5px solid #F0F0F0;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider {
+  padding: 25px 22px;
+  background-color: #282D3E;
+  height: 33vh;
+  position: relative;
+  z-index: 999;
+  top: 122px;
+  width: 27vw;
+}
+
+/* line 9, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider #slider-item {
+  border: 1px solid #F8F8F8;
+  padding: 25px 34px;
+}
+
+/* line 12, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider #slider-item .carousel-item {
+  position: relative;
+  background-color: #282D3E;
+}
+
+/* line 16, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider #slider-item .carousel-item .carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+/* line 21, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider #slider-item .carousel-item .carousel-caption h5 {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+}
+
+/* line 27, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#bootstrap-slider #slider-item .carousel-item .carousel-caption p {
+  font-size: 15;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 39, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area {
+  border: 5px solid #F8F8F8;
+  padding: 30px 50px;
+}
+
+/* line 45, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area .tag-heading h1 {
+  font-style: normal !important;
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+  font-family: 'Cardo', serif;
+  color: black;
+}
+
+/* line 57, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area .row .col-12 .custom-padding {
+  padding: 10px 24px;
+}
+
+/* line 61, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area .row .col-12 .bg-darks {
+  background-color: #838383;
+}
+
+/* line 67, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area .row .col-12 .d-inline .btn {
+  padding: 0px !important;
+  vertical-align: unset;
+}
+
+/* line 74, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-tag-area .row .col-12 .d-inline:hover {
+  background-color: #FC6B6B;
+  transition: all .4s;
+}
+
+/* line 82, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.main-slider-bg-area img {
+  width: 40.8vw;
+}
+
+/* line 87, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.img-box-item-post img {
+  width: 20vw;
+  height: 100%;
+}
+
+/* line 93, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+.img-box-item-post-middle img {
+  width: 23vw;
+  height: 100%;
+}
+
+/* line 105, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post {
+  position: relative;
+}
+
+/* line 107, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post .tag-contant {
+  background-color: #838383;
+  padding: 9px 24px;
+  position: absolute;
+  left: 0;
+  bottom: 69px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+/* line 115, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post .tag-contant span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* line 123, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post .tag-contant:hover {
+  background-color: #FC6B6B;
+  transition: all .3s;
+}
+
+/* line 130, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post .content-heading p a {
+  font-family: 'Cardo', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 33px;
+}
+
+/* line 137, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-8 .row .col-4 .img-box-item-post .content-heading p a span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #282D3E;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+
+/* line 158, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area {
+  border: 5px solid #F8F8F8;
+  padding: 30px 50px;
+}
+
+/* line 163, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area .heading-latest h1 {
+  font-family: 'Cardo', serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: black;
+}
+
+/* line 171, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area ul {
+  width: 14vw;
+}
+
+/* line 173, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area ul li {
+  padding: 14px 0px;
+  border-bottom: 2px dotted #F0F0F0;
+}
+
+/* line 176, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area ul li a {
+  font-family: 'Cardo', serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
+}
+
+/* line 182, ../../../Users/User/Desktop/smile-template/scss/leftstyle.scss */
+#story-section .container-fluid .row .col-4 .latest-new-area ul li span {
+  font-family: 'Cardo', serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #282D3E;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one {
+  position: relative;
+}
+
+/* line 10, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one img {
+  width: 22vw;
+  height: 100%;
+}
+
+/* line 14, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon {
+  position: absolute;
+  top: 10px;
+  background-color: #848484;
+  color: white;
+  border-radius: 31%;
+  height: 12px;
+  width: 30px;
+  left: 4%;
+}
+
+/* line 23, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon span {
+  font-size: 8px;
+  position: relative;
+  top: -9px;
+  left: 4px;
+}
+
+/* line 28, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon span i {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 0px 8px;
+}
+
+/* line 41, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+/* line 59, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content span:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 68, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two {
+  position: relative;
+}
+
+/* line 71, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two img {
+  width: 21.8vw;
+  height: 19vh;
+}
+
+/* line 75, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 82, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 89, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 98, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content p:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 105, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item {
+  position: relative;
+}
+
+/* line 107, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item img {
+  width: 21.8vw;
+  height: 19.3vh;
+}
+
+/* line 111, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 118, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 126, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 136, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content p:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item {
+  position: relative;
+}
+
+/* line 151, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item img {
+  width: 15vw;
+  height: 40.8vh;
+}
+
+/* line 155, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 162, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 170, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 179, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 190, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area {
+  border: 5px solid #CECECE;
+  padding: 14px 28px;
+}
+
+/* line 193, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area h1 {
+  font-family: 'Cardo', serif;
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 202, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media {
+  padding-top: 15px;
+}
+
+/* line 204, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media img {
+  width: 3.8vw;
+  height: 7vh;
+}
+
+/* line 209, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 215, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body h5 {
+  font-family: 'Cardo', serif;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 225, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body span:nth-of-type(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+}
+
+/* line 241, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .custom-margin {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 8, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box .gallery-content-area span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #B8B8B8;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box .gallery-content-area p {
+  font-family: 'Cardo', serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  line-height: 38px;
+}
+
+/* line 24, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box img {
+  width: 21.8vw;
+  height: 27vh;
+  margin-top: 30px;
+}
+
+/* line 32, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-one img {
+  width: 21.8vw;
+  height: 50vh;
+}
+
+/* line 38, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-two img {
+  width: 21.8vw;
+  height: 28vh;
+  margin-bottom: 15px;
+}
+
+/* line 45, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-three img {
+  width: 21.8vw;
+  height: 20vh;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-four img {
+  width: 21.8vw;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=style.css.map */

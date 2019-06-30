@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"// Variables\n$heading-font: 'Playfair Display',\nserif;\n$main-font: 'Comfortaa',\ncursive;\n\n$heading-color: rgba(51, 62, 72, 0.9);\n$white: #ffffff;\n$red: #D80027;\n$lignt-red: #FC6B6B;\n$light-blue: #A2F8FF;\n$light-blue-2: #E9F0F4;\n$dark-blue: #000;\n$dark-blue-2: #507F8B;\n$dark-blue-3: #0093B9;\n$icon-color: #C2C2C2;\n$active-icon-color: #000;\n$dark-grey: #000;\n$dark-grey-2: #47515a;\n$dark-grey-3: #555555;\n$dark-grey-4: #333E48;\n$dark-grey-5: #707070;\n$light-grey: #cccccc;\n$light-grey-2: #777777;\n$light-grey-3: #F7F7F7;\n$light-grey-4: #F0F0F0;\n$light-grey-5: #F7F9FA;\n$black-blod: #000;\n$black-slider-bg-color: #282D3E;\n$bg-darks: #838383;\n$tag-border-color: #F8F8F8;\n$border-dotted-color:#F0F0F0;\n\n"
+	],
+	"names": [],
+	"mappings": ""
+}

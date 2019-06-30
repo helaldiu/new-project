@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "top-header-bg.css",
+	"sources": [
+		"../scss/top-header-bg.scss"
+	],
+	"sourcesContent": [
+		"#top-header-bg {\r\n    background: url(\"../assets/header-bg-img/logo-bg-2@2x.png\") no-repeat center center / cover;\r\n    text-align: center;\r\n    height: 163px;\r\n    .logo{\r\n        a{\r\n            img{\r\n\r\n                height: 120px;\r\n                width: auto;\r\n                position: relative;\r\n                top: 20px;\r\n            }\r\n        }\r\n    }\r\n \r\n    ul{\r\n        .social-icon{\r\n            text-align: right;\r\n            margin-top: -52px;\r\n\r\n            li{\r\n                display: inline;\r\n            }\r\n            a{\r\n                display: inline-block;\r\n            }\r\n        }\r\n        .navigetion-item{\r\n            text-align: center;\r\n            margin-top: -52px;\r\n\r\n            li{\r\n                display: inline;\r\n                padding: 0px 40px 0px 40px;\r\n\r\n            }\r\n        }\r\n        \r\n\r\n    } \r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,+CAA+C,CAAC,SAAS,CAAC,MAAM,CAAC,YAAc;EAC3F,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;CAsChB;;;AAzCD,AAMY,cANE,CAIV,KAAK,CACD,CAAC,CACG,GAAG,CAAA;EAEC,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;CACZ;;;AAZb,AAiBQ,cAjBM,CAgBV,EAAE,CACE,YAAY,CAAA;EACR,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,KAAK;CAQpB;;;AA3BT,AAqBY,cArBE,CAgBV,EAAE,CACE,YAAY,CAIR,EAAE,CAAA;EACE,OAAO,EAAE,MAAM;CAClB;;;AAvBb,AAwBY,cAxBE,CAgBV,EAAE,CACE,YAAY,CAOR,CAAC,CAAA;EACG,OAAO,EAAE,YAAY;CACxB;;;AA1Bb,AA4BQ,cA5BM,CAgBV,EAAE,CAYE,gBAAgB,CAAA;EACZ,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,KAAK;CAOpB;;;AArCT,AAgCY,cAhCE,CAgBV,EAAE,CAYE,gBAAgB,CAIZ,EAAE,CAAA;EACE,OAAO,EAAE,MAAM;EACf,OAAO,EAAE,iBAAiB;CAE7B"
+}

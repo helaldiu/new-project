@@ -1,0 +1,51 @@
+/* line 8, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box .gallery-content-area span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #B8B8B8;
+}
+
+/* line 13, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box .gallery-content-area p {
+  font-family: 'Cardo', serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  line-height: 38px;
+}
+
+/* line 24, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-item-box img {
+  width: 21.8vw;
+  height: 27vh;
+  margin-top: 30px;
+}
+
+/* line 32, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-one img {
+  width: 21.8vw;
+  height: 50vh;
+}
+
+/* line 38, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-two img {
+  width: 21.8vw;
+  height: 28vh;
+  margin-bottom: 15px;
+}
+
+/* line 45, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-three img {
+  width: 21.8vw;
+  height: 20vh;
+}
+
+/* line 53, ../../../Users/User/Desktop/smile-template/scss/gallery.scss */
+.img-gallery-section .container-fluid .row .col-3 .gallery-img-box-item-four img {
+  width: 21.8vw;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=gallery.css.map */

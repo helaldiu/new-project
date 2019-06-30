@@ -1,0 +1,246 @@
+.recent-post-id{
+   
+    .container-fluid{
+        
+        .row{
+            .col-3{
+                .recent-post-item-one{
+                    position: relative;
+                 
+                    img{
+                        width: 22vw;
+                        height: 100%;
+                    }
+                    .star-icon{
+                        position: absolute;
+                        top: 10px;
+                        background-color: #848484;
+                        color: white;
+                        border-radius: 31%;
+                        height: 12px;
+                        width: 30px;
+                        left: 4%;
+                        span{
+                            font-size: 8px;
+                            position: relative;
+                            top: -9px;
+                            left: 4px;
+                            i{
+                                margin: 0 !important;
+                                padding: 0 !important;
+                            }
+
+                        }
+                    }
+                    .recent-post-item-content{
+                        position: absolute;
+                        bottom: 0px;
+                        background-color: #FFFFFF;
+                        width: 77%;
+                        padding: 0px 8px;
+                        span{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 11px;
+                            color: #B8B8B8;
+                          
+
+                        }
+                        a{
+                            font-family: 'Cardo', serif;
+                            font-size: 20px;
+                            color: black;
+                            font-weight: 700;
+                            padding: 0;
+                            margin: 0;
+                            text-decoration: none;
+                            padding-right: 30px;
+
+                        }
+                        span:nth-of-type(2){
+                            font-size: 8px;
+                            font-weight: 600;
+
+                        }
+                    }
+
+                }
+
+                .recent-post-item-two{
+                    position: relative;
+                    
+                    img{
+                        width: 21.8vw;
+                        height: 19vh;
+                    }
+                    .recent-post-item-two-content{
+                        position: absolute;
+                        bottom: 0px;
+                        background-color: #FFFFFF;
+                        width: 77%;
+                        padding: 10px 8px;
+                        
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 11px;
+                            color: #B8B8B8;
+                            margin-bottom: 0;
+
+                        }
+                        a{
+                            font-family: 'Cardo', serif;
+                            font-size: 20px;
+                            color: black;
+                            font-weight: 700;
+                            padding: 0;
+                            margin: 0;
+
+                        }
+                        p:nth-of-type(2){
+                            font-size: 8px;
+                            font-weight: 600;
+
+                        }
+                    }
+                }
+                .recent-second-post-item{
+                    position: relative;
+                    img{
+                        width: 21.8vw;
+                        height: 19.3vh;
+                    }
+                    .second-recent-post-item-two-content{
+                        position: absolute;
+                        bottom: 0px;
+                        background-color: #FFFFFF;
+                        width: 77%;
+                        padding: 10px 8px;
+
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 11px;
+                            color: #B8B8B8;
+                            margin-bottom: 0;
+
+
+                        }
+                        a{
+                            font-family: 'Cardo', serif;
+                            font-size: 20px;
+                            color: black;
+                            font-weight: 700;
+                            padding: 0;
+                            margin: 0;
+
+
+                        }
+                        p:nth-of-type(2){
+                            font-size: 8px;
+                            font-weight: 600;
+
+                        }
+
+                    }
+                }
+                
+        
+          
+            }
+            .col-2{
+                .third-recent-post-item{
+                    position: relative;
+                    img{
+                        width: 15vw;
+                        height: 40.8vh;
+                    }
+                    .thied-recent-post-item-content{
+                        position: absolute;
+                        bottom: 0px;
+                        background-color: #FFFFFF;
+                        width: 77%;
+                        padding: 10px 8px;
+
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 11px;
+                            color: #B8B8B8;
+                            margin-bottom: 0;
+
+
+                        }
+                        a{
+                            font-family: 'Cardo', serif;
+                            font-size: 20px;
+                            color: black;
+                            font-weight: 700;
+                            padding: 0;
+                            margin: 0;
+
+                        }
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 11px;
+                            color: #B8B8B8;
+                            margin-bottom: 0;
+
+                        }
+                    }
+                }
+            }
+            .col-4{
+                .main-recent-view-area{
+                    border: 5px solid #CECECE;
+                    padding: 14px 28px;
+                    h1{
+                        font-family: 'Cardo', serif;
+                        font-size: 22px;
+                        color: black;
+                        font-weight: 700;
+                        padding: 0;
+                        margin: 0;
+
+                    }
+                    .media{
+                        padding-top: 15px;
+                        img{
+                            width: 3.8vw;
+                            height: 7vh;
+                        }
+                        .media-body{
+                            span{
+                                font-family: 'Open Sans', sans-serif;
+                                font-size: 11px;
+                                color: #B8B8B8;
+                                margin-bottom: 0;
+                            }
+                            h5{
+                                font-family: 'Cardo', serif;
+                                font-size: 15px;
+                                color: black;
+                                font-weight: 700;
+                                padding: 0;
+                                margin: 0;
+
+
+                            }
+                            span:nth-of-type(2){
+                                font-family: 'Open Sans', sans-serif;
+                                font-size: 11px;
+                                color: #B8B8B8;
+    
+                            }
+
+
+                        }
+                    
+                    }
+                }
+               
+            }
+
+        }
+    .custom-margin{
+        display: block;
+        margin: 0 auto;
+        }
+    }
+}

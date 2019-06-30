@@ -1,0 +1,44 @@
+/* line 1, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg {
+  background: url("../assets/header-bg-img/logo-bg-2@2x.png") no-repeat center center/cover;
+  text-align: center;
+  height: 163px;
+}
+
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg .logo a img {
+  height: 120px;
+  width: auto;
+  position: relative;
+  top: 20px;
+}
+
+/* line 18, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon {
+  text-align: right;
+  margin-top: -52px;
+}
+
+/* line 22, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon li {
+  display: inline;
+}
+
+/* line 25, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .social-icon a {
+  display: inline-block;
+}
+
+/* line 29, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .navigetion-item {
+  text-align: center;
+  margin-top: -52px;
+}
+
+/* line 33, ../../../Users/User/Desktop/smile-template/scss/top-header-bg.scss */
+#top-header-bg ul .navigetion-item li {
+  display: inline;
+  padding: 0px 40px 0px 40px;
+}
+
+/*# sourceMappingURL=top-header-bg.css.map */

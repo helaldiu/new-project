@@ -1,0 +1,264 @@
+/* line 7, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one {
+  position: relative;
+}
+
+/* line 10, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one img {
+  width: 22vw;
+  height: 100%;
+}
+
+/* line 14, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon {
+  position: absolute;
+  top: 10px;
+  background-color: #848484;
+  color: white;
+  border-radius: 31%;
+  height: 12px;
+  width: 30px;
+  left: 4%;
+}
+
+/* line 23, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon span {
+  font-size: 8px;
+  position: relative;
+  top: -9px;
+  left: 4px;
+}
+
+/* line 28, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .star-icon span i {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 35, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 0px 8px;
+}
+
+/* line 41, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+}
+
+/* line 48, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+/* line 59, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-one .recent-post-item-content span:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 68, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two {
+  position: relative;
+}
+
+/* line 71, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two img {
+  width: 21.8vw;
+  height: 19vh;
+}
+
+/* line 75, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 82, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 89, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 98, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-post-item-two .recent-post-item-two-content p:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 105, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item {
+  position: relative;
+}
+
+/* line 107, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item img {
+  width: 21.8vw;
+  height: 19.3vh;
+}
+
+/* line 111, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 118, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 126, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 136, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-3 .recent-second-post-item .second-recent-post-item-two-content p:nth-of-type(2) {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* line 149, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item {
+  position: relative;
+}
+
+/* line 151, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item img {
+  width: 15vw;
+  height: 40.8vh;
+}
+
+/* line 155, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content {
+  position: absolute;
+  bottom: 0px;
+  background-color: #FFFFFF;
+  width: 77%;
+  padding: 10px 8px;
+}
+
+/* line 162, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 170, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content a {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 179, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-2 .third-recent-post-item .thied-recent-post-item-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 190, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area {
+  border: 5px solid #CECECE;
+  padding: 14px 28px;
+}
+
+/* line 193, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area h1 {
+  font-family: 'Cardo', serif;
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 202, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media {
+  padding-top: 15px;
+}
+
+/* line 204, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media img {
+  width: 3.8vw;
+  height: 7vh;
+}
+
+/* line 209, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+  margin-bottom: 0;
+}
+
+/* line 215, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body h5 {
+  font-family: 'Cardo', serif;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 225, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .row .col-4 .main-recent-view-area .media .media-body span:nth-of-type(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #B8B8B8;
+}
+
+/* line 241, ../../../Users/User/Desktop/smile-template/scss/recent-post.scss */
+.recent-post-id .container-fluid .custom-margin {
+  display: block;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=recent-post.css.map */

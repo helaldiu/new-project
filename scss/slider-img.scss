@@ -1,0 +1,71 @@
+#slider-img {
+    // background-color: red;
+    .slider-img-one{
+        background: url("../assets/slider-img/adult-attractive-beautiful-3@2x.png") no-repeat center center / cover;
+        text-align: center;
+        height: 73vh;
+        background-position: initial;
+        width: 26vw;
+        position: relative;
+        left: -78px;
+        top: 15px;
+    
+    }
+
+
+.slider-text-item {
+
+    h3{
+        font-size: 42px;
+        font-family: "cardo", cursive;
+        font-weight: 800;
+        color: $black-blod;
+        padding-left: 25px;
+        padding-top: 49px;
+        padding-bottom: 30px;
+        width: 546px;
+
+    }
+
+}
+.slider-img1 {
+    background: url("../assets/slider-img/adventure-arch-back-view-307006@2x.png") no-repeat center center / cover;
+    text-align: center;
+    height: 55vh;
+    
+}
+.slider-img2{
+
+    background: url("../assets/slider-img/buildings-cellphone-cheerful-1586486@2x.png") no-repeat center center / cover;
+    text-align: center;
+    height: 35vh;
+    width: 18vw;
+    
+}
+.button-area{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        left: 22%;
+        .btn-one{
+            background-color: $white;
+            padding: 3px 4px;
+            position: relative;
+            top: 20px;
+            border: .5px solid #F0F0F0;
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        }
+        .btn-two{
+            background-color: $white;
+            padding: 3px 4px;
+            position: relative;
+            top: 63px;
+            border: .5px solid #F0F0F0;
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        }
+    }
+
+   
+
+}
+
